@@ -1,0 +1,163 @@
+/*--- Styles
+------------------*/
+body {
+    font-family: "Work Sans", 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    position: relative;
+}
+header, section, footer {
+    font-size: 1.6em;
+}
+header span {
+    font-size: 2.06em;
+}
+section h3 {
+    padding: 40px 0;
+}
+section h3 span {
+    border-bottom: 3px solid rgb(9,210,97);
+}
+.intro p {
+    font-size: 1.4em;
+}
+.intro a:hover {
+    text-decoration: none;
+}
+.footlinks i {
+    margin-right: 15px;
+    font-size: 1.4em;
+    color: rgb(109,109,109);
+}
+.footlinks i:hover {
+    color: rgba(255, 255, 255, 1)
+}
+.profile {
+    background: url(../images/kene.png) no-repeat;
+    background-size: 300px;
+    background-attachment: fixed;
+    background-position: top 20% right 20%;
+    width: 100%;
+}
+@media (max-width: 577px) {
+    header {
+        background: url(../images/kene.png) no-repeat;
+        background-size: 300px;
+        background-attachment: fixed;
+        background-position: right 20% top 20%;
+    }
+}
+@media (min-width: 1438px) {
+    .profile {
+        background-position: top 20% right 30%;
+    }
+}
+.project {
+    margin-bottom: 75px;
+}
+#work .details a {
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#work .details a:hover{
+    text-decoration: none;
+    color: #D34335;
+}
+/* #work .details a:hover span {
+    -webkit-transition-delay: 30ms;
+    transition-delay: 30ms;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+} */
+.pics {
+    background: url(../images/browser-bg.png) no-repeat;
+    background-size: 100%;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    /* position: relative; */
+    padding-top: 2.9%;
+    /* padding-bottom: 10%; */
+    /* overflow: hidden; */
+}
+.pics:hover {
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.12);
+}
+.pics img {
+    width: 100%;
+    /* position: absolute; */
+    border: 1px solid #eaeaea;
+}
+.pics figure {
+    position: relative;    
+}
+@media (max-width: 768px) {
+    .pics figure {
+        margin-top: 2.9%;
+    }
+}
+footer:hover .contact p span {
+    color: rgb(59,157,255);
+}
+@media (max-width: 576px) {
+    footer .contact p span {
+        color: rgb(59,157,255);
+    }
+}
+.contact h3 {
+    width: 65%;
+    margin: 0 auto;
+}
+.contact p {
+    width: 40%;
+    margin: 0 auto;
+}
+.contact p i {
+    margin-right: 3px; 
+}
+.contact p span {
+    color: white;
+}
+#social a {
+    font-size: 0.8em;
+    color: rgb(109,109,109);
+}
+#social > div i {
+    font-size: 3.4em;
+    display: block;
+    margin-right: 7px;
+    margin-top: 4px;
+    float: left;
+}
+#social > div span {
+    display: -webkit-flex;
+    font-size: 1.2em;
+    color: white;
+}
+#social > div a:hover {
+    text-decoration: none;
+}
+.twitter i {
+    color: #55acee;
+}
+.dribbble i {
+    color: #ea4c89;
+}
+.instagram i {
+    color: #7a50c0;
+}
+.medium i {
+    color: #0be370;
+}
+#social > div.twitter:hover span {
+    color: #55acee;
+}
+#social > div.dribbble:hover span {
+    color: #ea4c89;
+}
+#social > div.instagram:hover span {
+    color: #7a50c0;
+}
+#social > div.medium:hover span {
+    color: #0be370;
+}
