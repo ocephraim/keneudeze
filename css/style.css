@@ -54,15 +54,22 @@ section h3 span {
 .project {
     margin-bottom: 75px;
 }
-#work .details a {
+#work .details a > div {
     transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     font-weight: bold;
     text-transform: uppercase;
+    display: inline-block;
 }
 #work .details a:hover{
     text-decoration: none;
     color: #D34335;
+}
+#work .details a:hover > div.visit {
+    padding-right: 5px;
+}
+#work .details a span {
+    transition-delay: 30ms; 
 }
 /* #work .details a:hover span {
     -webkit-transition-delay: 30ms;
